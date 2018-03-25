@@ -7,8 +7,6 @@
     color: white;
     font-size: 2em;
     font-weight: bold;
-
-
 }
 
 body, html {
@@ -29,11 +27,6 @@ body {
     margin: 0 auto;
     align-items: stretch;
     justify-content: center;
-    vertical-align: middle; 
-   
-    
-
-    
 
 }
 
@@ -41,11 +34,6 @@ body {
     flex-grow: 2;
     align-items: center;
     text-align: center;
-  
-    
-
-    
-
 }
 
 .section-1 > .flex-item:nth-child(even){

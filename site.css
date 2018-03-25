@@ -1,0 +1,77 @@
+/* EDIT BELOW THIS LINE */
+
+/* Add styles for section-1 */
+
+
+.section > .flex-item {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+
+
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+body {
+    padding: 20px;
+}
+
+.section-1 {
+    border: solid 1px rgba(155, 155, 155, .5);
+    display:flex;
+    flex-direction: row;
+    height: 200px;
+    margin: 0 auto;
+    align-items: stretch;
+    justify-content: center;
+    vertical-align: middle; 
+   
+    
+
+    
+
+}
+
+.section-1 > .flex-item:nth-child(odd){
+    flex-grow: 2;
+    align-items: center;
+    text-align: center;
+  
+    
+
+    
+
+}
+
+.section-1 > .flex-item:nth-child(even){
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section > .flex-item:nth-child(1) { background-color: #FAEB4F; }
+.section > .flex-item:nth-child(2) { background-color: #ECB03D; }
+.section > .flex-item:nth-child(3) { background-color: #E07E30; }
+.section > .flex-item:nth-child(4) { background-color: #CD3D7F; }
+.section > .flex-item:nth-child(5) { background-color: #49A7DB; }
+.section > .flex-item:nth-child(6) { background-color: #00A72B; }
+
+/* Add styles for section-2 */
+
+/* Add styles for section-3 */
+
+/* Add styles for section-4 */
+
+/* Add styles for section-5 */
+
+/* Add styles for section-6 */
+
+/* Add styles for section-7 */
+
+/* Add styles for section-8 */

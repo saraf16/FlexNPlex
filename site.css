@@ -6,7 +6,6 @@
 
 
 .section-1 {
-    border: solid 1px rgba(155, 155, 155, .5);
     display:flex;
     flex-direction: row;
     height: 200px;
@@ -29,12 +28,41 @@
 
 }
 
+/*NÆ EKKI AÐ MIÐJUSETJA TEXTAN !!!!!!*/
+
 
 /* Add styles for section-2 */
+.section-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.section-2 > .flex-item:nth-child(1){
+    align-self: flex-start;
+    flex-grow: 1;
+    width: 50%/*má nota þetta??*/
+}
+.section-2 > .flex-item:nth-child(5){
+    align-self: flex-end;
+    flex-grow: 1;
+    width: 50%/*má nota þetta*/
+}
 
 /* Add styles for section-3 */
 
 /* Add styles for section-4 */
+.section-4 {
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.section-4 > .flex-item{
+    height: 60px;
+    width: 100px;
+    align-content: space-between;
+}
 
 /* Add styles for section-5 */
 
@@ -43,3 +71,47 @@
 /* Add styles for section-7 */
 
 /* Add styles for section-8 */
+.section-8 {
+    display:flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.section-8 > .flex-item:nth-child(1){
+    flex-grow: 1;
+    width: 50%;
+}
+
+.section-8 > .flex-item:nth-child(2){
+    align-self: flex-end;
+    flex-grow: 0;
+    width: 50%;
+
+}
+
+.section-8 > .flex-item:nth-child(3){
+    align-self: flex-end;
+    flex-grow: 0;
+    width: 50%;
+}
+
+.section-8 > .flex-item:nth-child(4){
+    align-self: flex-end;
+    flex-grow: 0;
+    width: 50%;
+}
+
+.section-8 > .flex-item:nth-child(5){
+    align-self: flex-end;
+    flex-grow: 0;
+    width: 50%;
+}
+
+.section-8 > .flex-item:nth-child(6){
+    align-self: flex-end;
+    flex-grow: 0;
+    width: 50%;
+}

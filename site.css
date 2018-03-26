@@ -90,6 +90,29 @@
 }
 
 /* Add styles for section-5 */
+.section-5 {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+}
+
+.section-5 > .green:nth-child(1){
+    order: 1;
+  
+
+}
+
+/*.section-5 > .green{
+    flex-basis: 50%;
+
+}
+
+.section-5 > .purple{
+    flex-basis: 50%;
+
+}*/
 
 /* Add styles for section-6 */
 

@@ -133,7 +133,7 @@
 
 .section-7 {
     display: flex;
-    flex-flow: column-reverse wrap-reverse;
+    flex-flow: column wrap-reverse;
     justify-content: center;
     align-content: space-between;
 
@@ -146,7 +146,6 @@
 }
 
 .section-7 > .carebear-red, .carebear-green, .carebear-blue, .carebear-yellow {
-    align-content: stretch;
     flex-basis: 25%;
 }
 .section-7 > .carebear-green {

@@ -17,14 +17,16 @@
 
 .section-1 > .flex-item:nth-child(odd){
     flex-grow: 2;
-    align-items: center;
-
 }
 
 .section-1 > .flex-item:nth-child(even){
     flex-grow: 1;
-    align-items: center;
-    text-align: center;
+}
+
+.section-1 > .flex-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -92,17 +94,20 @@
 /* Add styles for section-5 */
 .section-5 {
     flex-direction: column-reverse;
-    align-items: stretch;
     flex-wrap: wrap-reverse;
     justify-content: center;
-
 }
 
 .section-5 > .green:nth-child(1){
     order: 1;
-  
 
 }
+
+.section-5 > .space-invader{
+    align-self: center;
+}
+
+
 
 /*.section-5 > .green{
     flex-basis: 50%;

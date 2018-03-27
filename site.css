@@ -120,6 +120,33 @@
 
 /* Add styles for section-7 */
 
+.section-7 {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
+.section-7 > .carebear-pink {
+
+    align-self: flex-start;
+    order: 5;
+}
+
+.section-7 > .carebear-red, .carebear-green, .carebear-blue, .carebear-yellow {
+    flex-basis: 25%;
+}
+.section-7 > .carebear-green {
+    order: 2;
+}
+.section-7 > .carebear-blue {
+    order: 3;
+}
+.section-7 > .carebear-yellow {
+    order: 4;
+}
+
 /* Add styles for section-8 */
 .section-8 {
     display:flex;
@@ -127,7 +154,6 @@
     margin: 0 auto;
     align-items: stretch;
     flex-wrap: wrap;
-
 }
 
 .section-8 > .flex-item:nth-child(1){
